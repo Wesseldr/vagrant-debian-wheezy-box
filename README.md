@@ -2,12 +2,12 @@
 
 Add the box to your local vagrant :
 
-	vagrant box add 'debian-70' https://static.nls.io/debian-70.box
+	vagrant box add 'debian-70' http://static.nls.io/debian-70.box
 	
 Define in your Vagrantfile the box to be used :
 
 	config.vm.box = "debian-70"
-	config.vm.box_url = "https://static.nls.io/debian-70.box"
+	config.vm.box_url = "http://static.nls.io/debian-70.box"
 
 You can also clone this repository and add your local box directly.	
 
